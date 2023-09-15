@@ -1,0 +1,49 @@
+.linhacabecalho {
+    border: 6px solid #33A95B;
+}
+a {
+    font-size: medium;
+    text-decoration: none; 
+    color: #33A95B;
+}
+.cabecalho {
+    background-color: #33A95B; 
+    padding: 15px;
+}
+.div {
+    text-align: center;
+    font-family: verdana; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+.boasvindas {
+    text-align: center;
+    margin-top: 60px; 
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #747271;
+}
+.imagemIFPE {
+    width: 30%;
+}
+.rodape {
+    text-align: center;
+    font-family: verdana; 
+    color: gray;
+    margin-top: 10%;
+}
+footer{
+    text-align: center;
+    font-family: verdana; 
+    color: gray;  
+}
+.redessociais {
+    width: 3%;
+    margin-right: 6px;
+}
+.linharodape {
+    border: 1px solid #33A95B;
+}

@@ -1,0 +1,12 @@
+.externa {
+    padding: 10px;
+ }
+ .interna {
+    padding: 20px;
+    width: 1024px;
+    text-align: justify; 
+    font-family: arial;
+ }
+ .linha {
+    color: red;
+ }

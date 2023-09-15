@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang = "pt-br">
+
+    <head>
+        <meta name="author" content="Seu nome">
+        <meta charset='utf-8'>
+        <title>Lista de Exercício 01</title> 
+        <link rel="stylesheet" type="text/css" href="parte.css">
+        <link rel="stylesheet" type="text/css" href="estilopaginamatricula.css"> 
+    </head>
+
+    <body style="margin: 0;">
+        <header>
+            <div class="cabecalho">
+                <img src="logo-reitoria.png">
+            </div>
+            <div class="div">
+                <a href="index.html" class="div"> Página Principal </a> &nbsp; | &nbsp;
+                <a href="historia.html" class="div"> História do Campus </a> &nbsp; | &nbsp;
+                <a href="imagens.html" class="div"> Imagens </a> &nbsp; | &nbsp;
+                <a href="noticias.html" class="div"> Notícias </a> &nbsp; | &nbsp; 
+                <a href="matricule-se.html" class="div"> Matricule-se </a> &nbsp; 
+            </div>
+            <hr class="linhacabecalho">
+        </header>
+
+        <div class="imageMatricula">
+            <img src="matricula.png" alt="">
+        </div>
+
+        <form action="" >
+            <fieldset class="fieldset1">
+                <p class="paragrafo1">Informações Pessoais</p>
+                <hr class="hrFieldset1">
+
+                <label for="Nome" id="alinharEsquerda" > Nome: </label><br/>
+                <input type="text" name="Nome" id="inputLargura">
+                <br>
+                <label for="CPF" id="alinharEsquerda"> CPF: </label><br/>
+                <input type="text" placeholder="000.000.000-00" name="CPF" class="inputLabel">
+                <br>
+                <label for="Email" id="alinharEsquerda" > E-mail: </label><br/>
+                <input type="text" name="Email" id="inputLargura">
+                <br>
+                <label for="DataNascimento" id="alinharEsquerda"> Data de Nascimento: </label><br/>
+                <input type="date" name="DataNascimento" class="inputLabel">
+                <br>
+                <label for="Cidade" id="alinharEsquerda"> Cidade: </label><br/>
+                <select name="Cidade" class="inputLabel" id="largura">
+                        <option value=" "></option>
+                        <option value=" "></option>
+                </select><br/>
+                <label for="Escolaridade" id="alinharEsquerda"> Escolaridade: </label><br/>
+                    <label for="fundamental"><input type="radio" class="espacamentoInput"> Nível Fundamental </label> <br/>
+                    <label for="Medio"><input type="radio" class="espacamentoInput"> Nível Medio </label> <br/>
+                    <label for="Superior"> <input type="radio" class="espacamentoInput"> Nível Superior </label> <br/>
+            </fieldset>
+     
+            <fieldset class="fieldset2">
+                <p class="paragrafo2"> Informações para o Sistema Acadêmico </p>
+                <hr class="hrFieldset2"/>
+                <label for="Login" id="alinharEsquerda"> Login (para o sistema de matrícula) </label><br/>
+                <input type="text" id="alinharEsquerda"><br/>
+                <label for="Senha" id="alinharEsquerda"> Senha (para o sistema de matricula) </label><br/>
+                <input type="password" id="alinharEsquerda" class="Largura"><br/>
+                <label for="Imagem" id="alinharEsquerda"> Adicione sua foto para o crachá <input type="file"></label><br/>
+            </fieldset>
+
+            <fieldset class="fieldset3">
+                <p class="paragrafo3"> Informações sobre o curso </p>
+                <hr class="hrFieldset3"/>
+                <label for="Curso" id="alinharEsquerda">
+                    Escolha o Curso <br>
+                    <select name="curso" id="alinharEsquerda" class="larguraCurso">
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select><br/>
+                </label>
+
+                <label for="desejo" id="alinharEsquerda">
+                    Porque você deseja cursar esse curso? <br/>
+                    <textarea name="desejo" id="" cols="30" rows="10"></textarea>
+                </label>
+            </fieldset>
+        </form>
+
+        <div class="containerButton">
+            <div>
+                <button class="buttonLimpar">Limpar</button>
+            </div>
+            <div>
+                <button class="buttonEnviar">Enviar</button>
+            </div>
+        </div>
+
+            <div class="rodape" id="RodapeNoticias">
+                <a href="https://pt-br.facebook.com" target="_blank" style="text-decoration: none;"> 
+                    <img src="iconFacebook.png" class="redessociais"> 
+                </a>
+                <a href="https://www.instagram.com" target="_blank" style="text-decoration: none;"> 
+                    <img src="iconInstagram.png" class="redessociais"> 
+                </a>
+                <a href="https://www.tiktok.com/pt-BR" target="_blank" style="text-decoration: none;"> 
+                    <img src="iconTikTok.png" class="redessociais"> 
+                </a>
+                <a href="https://twitter.com" target="_blank" style="text-decoration: none;"> 
+                    <img src="iconTwitter.png" class="redessociais"> 
+                </a>
+                <a href="https://www.youtube.com" target="_blank" style="text-decoration: none;">
+                    <img src="iconYouTube.png" class="redessociais"> 
+                </a>
+                <a href="https://www.whatsapp.com" target="_blank" style="text-decoration: none;"> 
+                    <img src="iconWhatsapp.png" class="redessociais"> 
+                </a>
+                <a href="https://web.telegram.org" target="_blank" style="text-decoration: none;"> 
+                    <img src="iconTelegram.png" class="redessociais"> 
+                </a>
+            </div>
+            <hr class="linharodape">
+            <footer> ©2023 - Desenvolvido pelos alunos do Projeto Ninho </footer>
+    </body>
+</html>

@@ -1,0 +1,141 @@
+.imageMatricula {
+   display: flex;
+   margin-left: 20%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+ 
+ form {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+ 
+ }
+ 
+ .fieldset1 {
+   border: 2px solid rgb(189, 10, 10);
+   padding: 10px;
+   margin-bottom: 20px;
+   border-radius: 10px;
+ }
+ 
+ .fieldset2 {
+   border: 2px solid rgb(33, 110, 173);
+   padding: 10px;
+   margin-bottom: 20px;
+   border-radius: 10px;
+ }
+ 
+ .fieldset3 {
+   border: 2px solid rgb(5, 90, 5);
+   padding: 10px;
+   margin-bottom: 20px;
+   border-radius: 10px;
+ }
+ 
+ p {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .paragrafo1 {
+   font-weight: bold;
+   font-size: 18px;
+   color: red;
+   text-align: center;
+ }
+ 
+ .paragrafo2 {
+   font-weight: bold;
+   font-size: 18px;
+   color: rgb(49, 127, 190);
+   text-align: center;
+ }
+ 
+ .paragrafo3 {
+   font-weight: bold;
+   font-size: 18px;
+   color: green;
+   text-align: center;
+ 
+ }
+ 
+ 
+ #alinharEsquerda {
+   display: block;
+   margin-bottom: 5px;
+   text-align: left;
+   font-weight: bold;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ #inputLargura {
+   width: 400px;
+   display: block;
+   text-align: left;
+ }
+ 
+ .inputLabel {
+   display: block;
+   text-align: left;
+ }
+ 
+ .espacamentoInput {
+   margin-bottom: 7px;
+ }
+ 
+ .labelName {
+   font-weight: bold;
+ }
+ 
+ #largura {
+   width: 150px;
+ }
+ 
+ .Largura {
+   width: 100px;
+ }
+ 
+ .larguraCurso {
+   width: 200px;
+ }
+ 
+ textarea {
+   width: 400px;
+ }
+ 
+ .containerButton {
+   display: flex;
+   justify-content: space-between;
+   width: 800px;
+   margin: 0 auto;
+ }
+ 
+ .buttonLimpar {
+   background-color: rgb(233, 100, 100);
+   padding: 5px 15px;
+   font-weight: bold;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .buttonEnviar {
+   background-color: rgb(100, 191, 233);
+   padding: 5px 15px;
+   font-weight: bold;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .hrFieldset1 {
+   border: 1px solid rgb(189, 10, 10);
+   ;
+   margin-bottom: 20px;
+ }
+ 
+ .hrFieldset2 {
+   border: 1px solid rgb(33, 110, 173);
+   margin-bottom: 20px;
+ }
+ 
+ .hrFieldset3 {
+   border: 1px solid rgb(5, 90, 5);
+   margin-bottom: 20px;
+ }
